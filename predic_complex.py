@@ -17,7 +17,6 @@ from datetime import datetime
 import warnings
 import time
 import os
-import json
 
 warnings.filterwarnings('ignore')
 
@@ -56,7 +55,7 @@ if HAS_TORCH and torch.cuda.is_available():
 # ============================================================
 #  数据加载
 # ============================================================
-def load_data_from_csv(filename='7星彩_历史开奖号码.csv'):
+def load_data(filename='7星彩_历史开奖号码.csv'):
     data = []
     with open(filename, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
@@ -67,53 +66,18 @@ def load_data_from_csv(filename='7星彩_历史开奖号码.csv'):
                 'date': row.get('开奖日期', ''),
                 'numbers': nums,
             })
-    return data
-
-def load_data_from_json(filename='raw_api_response.json'):
-    data = []
-    with open(filename, 'r', encoding='utf-8') as f:
-        json_data = json.load(f)
-        for item in json_data['data']:
-            front_nums = [int(x) for x in item['frontWinningNum'].split()]
-            back_num = [int(item['backWinningNum'])]
-            nums = front_nums + back_num
-            data.append({
-                'issue': item['issue'],
-                'date': item['openTime'],
-                'numbers': nums,
-            })
-    return data
-
-def load_data(csv_filename='7星彩_历史开奖号码.csv', json_filename='raw_api_response.json'):
-    # 加载 CSV 数据
-    csv_data = load_data_from_csv(csv_filename)
-    
-    # 加载 JSON 数据
-    json_data = load_data_from_json(json_filename)
-    
-    # 合并数据
-    all_data = csv_data + json_data
-    
-    # 去重和排序
-    seen_issues = set()
-    unique_data = []
-    for rec in all_data:
-        if rec['issue'] not in seen_issues:
-            seen_issues.add(rec['issue'])
-            unique_data.append(rec)
-    
-    unique_data.sort(key=lambda x: x['issue'])
+    data.sort(key=lambda x: x['issue'])
 
     errors = 0
-    for rec in unique_data:
+    for rec in data:
         for pos in range(POS_COUNT):
             if not (0 <= rec['numbers'][pos] < POS_RANGES[pos]):
                 errors += 1
     if errors:
         print(f"  ⚠ 数据验证: {errors} 个范围异常")
     else:
-        print(f"  OK 数据验证: 全部 {len(unique_data)} 条范围正确")
-    return unique_data
+        print(f"  OK 数据验证: 全部 {len(data)} 条范围正确")
+    return data
 
 
 def get_builtin_data():
@@ -1696,22 +1660,12 @@ def main():
 
     # ---- 加载数据 ----
     try:
-        history = load_data('7星彩_历史开奖号码.csv', 'raw_api_response.json')
-        print(f"  OK 从CSV和JSON加载 {len(history)} 条历史记录")
-    except FileNotFoundError as e:
-        if '7星彩_历史开奖号码.csv' in str(e):
-            print(f"\n  未找到CSV，使用内置数据...")
-            history = get_builtin_data()
-            print(f"  OK 加载 {len(history)} 条内置记录")
-        else:
-            print(f"\n  未找到JSON，使用CSV数据...")
-            try:
-                history = load_data_from_csv('7星彩_历史开奖号码.csv')
-                print(f"  OK 从CSV加载 {len(history)} 条历史记录")
-            except FileNotFoundError:
-                print(f"\n  未找到CSV，使用内置数据...")
-                history = get_builtin_data()
-                print(f"  OK 加载 {len(history)} 条内置记录")
+        history = load_data('7星彩_历史开奖号码.csv')
+        print(f"  OK 从CSV加载 {len(history)} 条历史记录")
+    except FileNotFoundError:
+        print(f"\n  未找到CSV，使用内置数据...")
+        history = get_builtin_data()
+        print(f"  OK 加载 {len(history)} 条内置记录")
 
     p7_vals = [r['numbers'][6] for r in history]
     p7_two = sum(1 for v in p7_vals if v >= 10)
