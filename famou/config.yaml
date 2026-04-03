@@ -1,0 +1,8 @@
+evolve_config:
+  max_iterations: 80
+  population_size: 100
+  num_islands: 4
+cloud_type: "hybrid"
+initial_program: "initial_program.py"
+evaluator: "evaluator.py"
+system_message: "prompt.md"
