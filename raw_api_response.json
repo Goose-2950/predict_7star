@@ -1,9 +1,381 @@
 {
   "pageNum": "1",
   "pageSize": "5000",
-  "total": "831",
+  "total": "835",
   "pages": "1",
   "data": [
+    {
+      "issue": "26047",
+      "openTime": "2026-04-28",
+      "frontWinningNum": "3 9 8 2 5 0",
+      "backWinningNum": "8",
+      "seqFrontWinningNum": "3 9 8 2 5 0",
+      "seqBackWinningNum": "8",
+      "saleMoney": "17108558",
+      "r9SaleMoney": "",
+      "prizePoolMoney": "292654794.68",
+      "fixPoolMoney": "",
+      "week": "星期二",
+      "tryCode": "",
+      "djEndTime": "2026-06-29",
+      "awardEndDesc": "-",
+      "specialNotes": "",
+      "fixUBound": "",
+      "floatBound": "",
+      "winnerDetails": [
+        {
+          "awardEtc": "1",
+          "baseBetWinner": {
+            "remark": "一等奖",
+            "awardNum": "0",
+            "awardMoney": "0",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "2",
+          "baseBetWinner": {
+            "remark": "二等奖",
+            "awardNum": "5",
+            "awardMoney": "32324",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "3",
+          "baseBetWinner": {
+            "remark": "三等奖",
+            "awardNum": "45",
+            "awardMoney": "3000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "4",
+          "baseBetWinner": {
+            "remark": "四等奖",
+            "awardNum": "1989",
+            "awardMoney": "500",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "5",
+          "baseBetWinner": {
+            "remark": "五等奖",
+            "awardNum": "27359",
+            "awardMoney": "30",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "6",
+          "baseBetWinner": {
+            "remark": "六等奖",
+            "awardNum": "963337",
+            "awardMoney": "5",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        }
+      ]
+    },
+    {
+      "issue": "26046",
+      "openTime": "2026-04-26",
+      "frontWinningNum": "8 8 5 6 2 3",
+      "backWinningNum": "13",
+      "seqFrontWinningNum": "8 8 5 6 2 3",
+      "seqBackWinningNum": "13",
+      "saleMoney": "17629280",
+      "r9SaleMoney": "",
+      "prizePoolMoney": "291200180.1",
+      "fixPoolMoney": "",
+      "week": "星期日",
+      "tryCode": "",
+      "djEndTime": "2026-06-25",
+      "awardEndDesc": "-",
+      "specialNotes": "",
+      "fixUBound": "",
+      "floatBound": "",
+      "winnerDetails": [
+        {
+          "awardEtc": "1",
+          "baseBetWinner": {
+            "remark": "一等奖",
+            "awardNum": "0",
+            "awardMoney": "0",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "2",
+          "baseBetWinner": {
+            "remark": "二等奖",
+            "awardNum": "9",
+            "awardMoney": "55912",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "3",
+          "baseBetWinner": {
+            "remark": "三等奖",
+            "awardNum": "15",
+            "awardMoney": "3000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "4",
+          "baseBetWinner": {
+            "remark": "四等奖",
+            "awardNum": "827",
+            "awardMoney": "500",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "5",
+          "baseBetWinner": {
+            "remark": "五等奖",
+            "awardNum": "18040",
+            "awardMoney": "30",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "6",
+          "baseBetWinner": {
+            "remark": "六等奖",
+            "awardNum": "521304",
+            "awardMoney": "5",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        }
+      ]
+    },
+    {
+      "issue": "26045",
+      "openTime": "2026-04-24",
+      "frontWinningNum": "1 3 2 8 9 6",
+      "backWinningNum": "14",
+      "seqFrontWinningNum": "1 3 2 8 9 6",
+      "seqBackWinningNum": "14",
+      "saleMoney": "25972354",
+      "r9SaleMoney": "",
+      "prizePoolMoney": "286671265.62",
+      "fixPoolMoney": "",
+      "week": "星期五",
+      "tryCode": "",
+      "djEndTime": "2026-06-23",
+      "awardEndDesc": "-",
+      "specialNotes": "",
+      "fixUBound": "",
+      "floatBound": "",
+      "winnerDetails": [
+        {
+          "awardEtc": "1",
+          "baseBetWinner": {
+            "remark": "一等奖",
+            "awardNum": "3",
+            "awardMoney": "5000000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "2",
+          "baseBetWinner": {
+            "remark": "二等奖",
+            "awardNum": "11",
+            "awardMoney": "69327",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "3",
+          "baseBetWinner": {
+            "remark": "三等奖",
+            "awardNum": "30",
+            "awardMoney": "3000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "4",
+          "baseBetWinner": {
+            "remark": "四等奖",
+            "awardNum": "1330",
+            "awardMoney": "500",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "5",
+          "baseBetWinner": {
+            "remark": "五等奖",
+            "awardNum": "23897",
+            "awardMoney": "30",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "6",
+          "baseBetWinner": {
+            "remark": "六等奖",
+            "awardNum": "725710",
+            "awardMoney": "5",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        }
+      ]
+    },
+    {
+      "issue": "26044",
+      "openTime": "2026-04-21",
+      "frontWinningNum": "7 6 2 0 9 1",
+      "backWinningNum": "1",
+      "seqFrontWinningNum": "7 6 2 0 9 1",
+      "seqBackWinningNum": "1",
+      "saleMoney": "18413848",
+      "r9SaleMoney": "",
+      "prizePoolMoney": "294807871.51",
+      "fixPoolMoney": "",
+      "week": "星期二",
+      "tryCode": "",
+      "djEndTime": "2026-06-22",
+      "awardEndDesc": "-",
+      "specialNotes": "",
+      "fixUBound": "",
+      "floatBound": "",
+      "winnerDetails": [
+        {
+          "awardEtc": "1",
+          "baseBetWinner": {
+            "remark": "一等奖",
+            "awardNum": "2",
+            "awardMoney": "5000000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "2",
+          "baseBetWinner": {
+            "remark": "二等奖",
+            "awardNum": "8",
+            "awardMoney": "453629",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "3",
+          "baseBetWinner": {
+            "remark": "三等奖",
+            "awardNum": "25",
+            "awardMoney": "3000",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "4",
+          "baseBetWinner": {
+            "remark": "四等奖",
+            "awardNum": "1350",
+            "awardMoney": "500",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "5",
+          "baseBetWinner": {
+            "remark": "五等奖",
+            "awardNum": "18950",
+            "awardMoney": "30",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        },
+        {
+          "awardEtc": "6",
+          "baseBetWinner": {
+            "remark": "六等奖",
+            "awardNum": "734405",
+            "awardMoney": "5",
+            "totalMoney": ""
+          },
+          "addToBetWinner": "",
+          "addToBetWinner2": "",
+          "addToBetWinner3": ""
+        }
+      ]
+    },
     {
       "issue": "26043",
       "openTime": "2026-04-19",
